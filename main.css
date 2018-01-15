@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
 @import url('https://fonts.googleapis.com/css?family=Quattrocento:400, 700');
 
+body {
+    background-color:#FFFFFF;
+}
+
 h1 { 
     font-family: 'Mukta Malar', sans-serif;
     font-size: 30px;
@@ -114,11 +118,12 @@ header {
 .page-content {
     clear: both;
     float: none;
+    padding-left: 5px;
 }
 
 .pic {
-    max-height: 700px;
-    max-width: 95%;
+    max-height: 600px;
+    max-width: 97%;
     height:auto;
     width: auto;
     align-content: auto;
@@ -127,7 +132,12 @@ header {
 }
 
 .small-pic {
-    max-height: 500px;
+    max-height: 400px;
+}
+
+.large-pic {
+    max-height: 1200px;
+    max-width: 100%;
 }
 
 footer {
