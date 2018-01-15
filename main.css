@@ -140,6 +140,10 @@ header {
     max-width: 100%;
 }
 
+.tall-pic {
+    max-height: 800px;
+}
+
 footer {
     text-align: center;
     clear: both;
