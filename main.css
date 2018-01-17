@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
 @import url('https://fonts.googleapis.com/css?family=Quattrocento:400, 700');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400, 500, 700');
 
 body {
     background-color:#FFFFFF;
 }
 
 h1 { 
-    font-family: 'Mukta Malar', sans-serif;
+    font-family: "Cormorant Garamond", sans-serif;
     font-size: 30px;
     padding-left: 50px;
 }
@@ -15,12 +16,13 @@ img {
     margin: 10px;
 }
 a, p {
-    font-family: 'Mukta Malar', sans-serif;
+    font-family: "Mukta Malar", sans-serif;
     font-size: 16px;
 }
 
 .text {
-    font-family: 'Quattrocento', serif;
+    font-family:  "Quattrocento", sans-serif;
+    font-size: 16px;
     font-weight: 400;
     padding: 0px;
     margin: 0px;
@@ -31,7 +33,6 @@ a, p {
 }
 
 .piece-name {
-    font-style: oblique;
     font-weight: 700;
     padding-bottom: 10px;
 }
@@ -40,7 +41,7 @@ a, p {
     color: black;
     text-decoration: none;
     float: left;   
-    font-family: 'Quattrocento', serif;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 700;
     font-size: 40px;
     padding-left: 50px;
@@ -49,7 +50,7 @@ a, p {
     color: gray;
     text-decoration: none;
     float: left;   
-    font-family: 'Quattrocento', serif;
+    font-family: "Cormorant Garamond", serif;
     font-weight:700;
     font-size: 40px;
     padding-left: 50px;
