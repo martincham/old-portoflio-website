@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
-@import url('https://fonts.googleapis.com/css?family=Quattrocento:400, 700');
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400, 500, 700');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300, 400, 500, 700');
+@import url('https://fonts.googleapis.com/css family=IBM+Plex+Mono:100,100i,400,400i,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,400,700,700i');
 
 body {
     background-color:#FFFFFF;
@@ -9,7 +9,7 @@ body {
 }
 
 h1 { 
-    font-family: "Cormorant Garamond", sans-serif;
+    font-family: "Roboto Mono", monospace;
     font-size: 30px;
     padding-left: 50px;
 }
@@ -18,12 +18,12 @@ img {
     margin: 10px;
 }
 a, p {
-    font-family: "Mukta Malar", sans-serif;
-    font-size: 16px;
+    font-family: "Roboto Mono",  monospace;
+    
 }
 
 .text {
-    font-family:  "Quattrocento", sans-serif;
+    font-family:  "Roboto Mono", monospace;
     font-size: 16px;
     font-weight: 400;
     padding: 0px;
@@ -39,18 +39,23 @@ a, p {
 }
 
 .piece-name {
-    font-weight: 700;
+    font-weight: 400;
     padding-bottom: 20px;
     padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 #title:link, #title:visited {
     color: black;
     text-decoration: none;
     float: left;   
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 700;
+    font-family: "Courier New", monospace;
+    font-weight: 100, thin, lighter;
     font-size: 40px;
+    font-style: italic;
     padding-left: 50px;
     padding-bottom: 0px;
 }
@@ -58,8 +63,9 @@ a, p {
     color: darkgray;
     text-decoration: none;
     float: left;   
-    font-family: "Cormorant Garamond", serif;
-    font-weight:700;
+    font-family: "Courier New", monospace;
+    font-weight: 100, thin, lighter;
+    font-style: italic;
     font-size: 40px;
     padding-left: 50px;
     padding-bottom: 0px;
@@ -111,6 +117,8 @@ header {
 #projects-dropdown {
     margin: 0;
     width: 170px;
+    font-size: 12px;
+    line-height: 2;
 
 }
 .item  { 
@@ -214,7 +222,7 @@ header {
 }
 
 .thumbhover:hover {
-    opacity: 0.2;
+    opacity: 0.3;
     box-shadow: 3px 3px 5px black;
 }
 
@@ -269,7 +277,19 @@ footer {
     text-align: center;
     display:block;
     clear: both;
+    font-size: 12px;
 
+}
+
+.hover_text { 
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
 
 
