@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300, 400, 500, 700');
-@import url('https://fonts.googleapis.com/css family=IBM+Plex+Mono:100,100i,400,400i,600');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,400,700,700i');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,900;1,300;1,400;1,600;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
 
 body {
     background-color:#FFFFFF;
@@ -9,7 +7,7 @@ body {
 }
 
 h1 { 
-    font-family: "Roboto Mono", monospace;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 30px;
     padding-left: 50px;
 }
@@ -18,12 +16,12 @@ img {
     margin: 10px;
 }
 a, p {
-    font-family: "Roboto Mono",  monospace;
+    font-family: 'Red Hat Text', sans-serif;
     
 }
 
 .text {
-    font-family:  "Roboto Mono", monospace;
+    font-family: 'Red Hat Text', sans-serif;
     font-size: 16px;
     font-weight: 400;
     padding: 0px;
@@ -52,22 +50,20 @@ a, p {
     color: black;
     text-decoration: none;
     float: left;   
-    font-family: "Courier New", monospace;
-    font-weight: 100, thin, lighter;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
     font-size: 40px;
-    font-style: italic;
-    padding-left: 50px;
+    padding-left: 10px;
     padding-bottom: 0px;
 }
 #title:hover, #title:active { 
     color: darkgray;
     text-decoration: none;
     float: left;   
-    font-family: "Courier New", monospace;
-    font-weight: 100, thin, lighter;
-    font-style: italic;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900, thin, lighter;
     font-size: 40px;
-    padding-left: 50px;
+    padding-left: 10px;
     padding-bottom: 0px;
 }
 
@@ -90,7 +86,7 @@ ul {
 
 header {
     width: 100%;
-    height: 70px;
+    min-height: 70px;
     clear: both;
     position:fixed;
     z-index: 2;
