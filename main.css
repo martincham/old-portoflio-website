@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,900;1,300;1,400;1,600;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,900;1,300;1,400;1,600;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 body {
     background-color:#FFFFFF;
@@ -46,36 +46,35 @@ a, p {
     text-align: center;
 }
 
-#title:link, #title:visited {
-    color: black;
+#title {
     text-decoration: none;
     float: left;   
     font-family: "Red Hat Display", sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-    padding-left: 10px;
-    padding-bottom: 0px;
-}
-#title:hover, #title:active { 
-    color: darkgray;
-    text-decoration: none;
-    float: left;   
-    font-family: "Red Hat Display", sans-serif;
-    font-weight: 900, thin, lighter;
+    font-weight: 600;
     font-size: 40px;
     padding-left: 10px;
     padding-bottom: 0px;
 }
 
-.pagelink:link, .pagelink:visited {
+#title:link, #title:visited {
+    color: black;
+}
+#title:hover, #title:active { 
+    color: darkgray;
+    
+}
+
+.pagelink {
     text-decoration: none;
     color: black;
     padding-left: 5px;
 }
+
+.pagelink:link, .pagelink:visited {
+    color: black;
+}
 .pagelink:hover, .pagelink:active {
-    text-decoration: none;
     color: darkgray;
-    padding-left: 5px;
 }
 
 ul {
@@ -101,18 +100,19 @@ header {
     margin: 0;
     padding: 0;
     width: auto;
-    margin-right: 20px;
+    margin-right: 50px;
     margin-top: 20px;
 }
 .nav-item {
     display: inline-block;
-    margin-left:50px;
+    margin-left:20px;
+    float: left;
 }
 
 
 #projects-dropdown {
     margin: 0;
-    width: 170px;
+    min-width: 190px;
     font-size: 12px;
     line-height: 2;
 
