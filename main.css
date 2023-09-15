@@ -89,7 +89,6 @@ header {
     width: 100%;
     min-height: 70px;
     float:left;
-    position:fixed;
     display: block;
     z-index: 2;
     top: 0px;
