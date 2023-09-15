@@ -53,9 +53,15 @@ a, p {
     float: left;   
     font-family: "Red Hat Display", sans-serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 6vw;
     padding-left: 10px;
     padding-bottom: 0px;
+}
+
+@media screen and (min-width: 1200px) {
+  div.example {
+    font-size: 40px;
+  }
 }
 
 #title:link, #title:visited {
@@ -150,7 +156,7 @@ header {
 }
 
 .pic {
-    max-height: 600px;
+    max-height: 800px;
     max-width: 97%;
     height:auto;
 }
