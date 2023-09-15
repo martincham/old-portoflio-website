@@ -3,6 +3,7 @@
 body {
     background-color:#FFFFFF;
     
+    
     margin: 0px;
 }
 
@@ -14,6 +15,7 @@ h1 {
 
 img {
     margin: 10px;
+    max-width: 100%;
 }
 a, p {
     font-family: 'Red Hat Text', sans-serif;
@@ -86,8 +88,9 @@ ul {
 header {
     width: 100%;
     min-height: 70px;
-       float:left;
+    float:left;
     position:fixed;
+    display: block;
     z-index: 2;
     top: 0px;
     background-color: white;
@@ -150,7 +153,6 @@ header {
     max-height: 600px;
     max-width: 97%;
     height:auto;
-    width: auto;
     align-content: auto;
     margin: 0;
     padding: 0;
@@ -305,6 +307,7 @@ footer {
         grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     }
 }
+
 
 
 }
