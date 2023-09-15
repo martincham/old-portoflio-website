@@ -90,6 +90,7 @@ header {
     min-height: 70px;
     float:left;
     display: block;
+    position: fixed;
     z-index: 2;
     top: 0px;
     background-color: white;
@@ -140,7 +141,7 @@ header {
 }
 
 .page-content {
-    margin-top: 60px;
+    margin-top: 80px;
     clear: both;
     float: none;
     padding: 5px;
@@ -152,9 +153,6 @@ header {
     max-height: 600px;
     max-width: 97%;
     height:auto;
-    align-content: auto;
-    margin: 0;
-    padding: 0;
 }
 
 .small-pic {
