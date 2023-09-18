@@ -27,7 +27,6 @@ a, p {
     font-weight: 400;
     padding: 0px;
     margin: 0px;
-    padding-left: 30px;
     max-width: 800px;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -80,7 +79,7 @@ a, p {
 .pagelink {
     text-decoration: none;
     color: black;
-    padding-left: 5px;
+    padding-left: 0px;
 }
 
 .pagelink:link, .pagelink:visited {
@@ -95,6 +94,8 @@ ul {
     margin:0;
     padding:0;
 }
+
+
 
 header {
     width: 100%;
@@ -115,7 +116,7 @@ header {
     padding: 0;
     width: auto;
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .nav-item {
     display: inline-block;
@@ -125,9 +126,10 @@ header {
 
 
 #projects-dropdown {
-    margin: 0;
-    min-width: 190px;
-    font-size: 12px;
+    margin-top: 0px;
+    min-width: 210px;
+    width: auto;
+    font-size: 14px;
     line-height: 2;
 
 }
@@ -138,12 +140,14 @@ header {
 
 .dropdown {
     position: relative;
+    
 }
 
 .drop-content {
     position: absolute;
     display: none;
     background-color: rgba(255, 255, 255, .9);
+    padding-top: 5px;
 
 }
 
